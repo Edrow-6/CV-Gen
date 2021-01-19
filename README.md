@@ -31,17 +31,17 @@ TODO
 
 ### Ressources
 
-[Editeur Markdown](https://stackedit.io/)
+[Editeur Markdown](https://stackedit.io/)<br>
 [Visual Studio Code](https://code.visualstudio.com/)
 
-[Docs TailwindCSS](https://tailwindcss.com/docs)
+[Docs TailwindCSS](https://tailwindcss.com/docs)<br>
 [Docs PHP](https://www.php.net/docs.php)
 
-[Adaptation Blade (BladeOne)](https://github.com/EFTEC/BladeOne)
-[Extention BladeOne](https://github.com/EFTEC/bladeonehtml)
+[Adaptation Blade (BladeOne)](https://github.com/EFTEC/BladeOne)<br>
+[Extention BladeOne](https://github.com/EFTEC/bladeonehtml)<br>
 [Docs Officielle Blade](https://laravel.com/docs/8.x/blade)
 
-[PDO (Standalone)](https://github.com/EFTEC/PdoOne)
+[PDO (Standalone)](https://github.com/EFTEC/PdoOne)<br>
 [Docs DotEnv (Symfony)](https://github.com/symfony/dotenv)
 
 ### Crédits
