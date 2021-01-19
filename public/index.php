@@ -2,24 +2,25 @@
 
 /*
 |--------------------------------------------------------------------------
-| Register The Auto Loader
+| Enregistrer l'autoloader
 |--------------------------------------------------------------------------
 |
-| Composer provides a convenient, automatically generated class loader for
-| this application. We just need to utilize it! We'll simply require it
-| into the script here so we don't need to manually load our classes.
+| Composer fournit un chargeur de classe pratique, généré automatiquement pour 
+| cette application. Il suffit de l'utiliser ! Nous l'utiliserons simplement 
+| dans le script ici pour ne pas avoir à charger manuellement nos classes.
 |
 */
 require __DIR__.'/../vendor/autoload.php';
 
 /*
 |--------------------------------------------------------------------------
-| Run The Application
+| Exectuer l'application
 |--------------------------------------------------------------------------
 |
-| Once we have the application, we can handle the incoming request using
-| the application's HTTP kernel. Then, we will send the response back
-| to this client's browser, allowing them to enjoy our application.
+| Une fois que nous avons l'application, nous pouvons traiter la demande entrante
+| en utilisant le noyau HTTP de l'application. Ensuite, nous renverrons la réponse
+| au navigateur de ce client, lui permettant ainsi de profiter de notre application.
 |
 */
 require __DIR__.'/../bootstrap/app.php';
+
