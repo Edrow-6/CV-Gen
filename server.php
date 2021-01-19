@@ -11,9 +11,11 @@ $uri = urldecode(
     parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH)
 );
 
-// This file allows us to emulate Apache's "mod_rewrite" functionality from the
-// built-in PHP web server. This provides a convenient way to test a Laravel
-// application without having installed a "real" web server software here.
+/* 
+| Ce fichier nous permet d'émuler la fonctionnalité "mod_rewrite" d'Apache à 
+| partir du serveur web PHP intégré. Cela permet de tester facilement 
+| l'application sans avoir à installer un "vrai" logiciel de serveur web ici.
+ */
 if ($uri !== '/' && file_exists(__DIR__.'/public'.$uri)) {
     return false;
 }
