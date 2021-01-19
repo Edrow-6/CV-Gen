@@ -1,5 +1,22 @@
 {
+    "name": "yaceki/cv-gen",
+    "description": "Generateur de CV (Projet BTS)",
+    "type": "project",
     "require": {
-        "jenssegers/blade": "^1.4"
-    }
+        "eftec/bladeone": "^3.49",
+        "eftec/bladeonehtml": "^1.7",
+        "eftec/pdoone": "^2.7",
+        "symfony/dotenv": "^5.2"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "eftec\\": "vendor/eftec/"
+        }
+    },
+    "authors": [
+        {"name": "Xander"},
+        {"name": "Edrow"},
+        {"name": "Skyrex"}
+    ]
 }
