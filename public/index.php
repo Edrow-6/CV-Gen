@@ -1,13 +1,25 @@
 <?php
+
+/*
+|--------------------------------------------------------------------------
+| Register The Auto Loader
+|--------------------------------------------------------------------------
+|
+| Composer provides a convenient, automatically generated class loader for
+| this application. We just need to utilize it! We'll simply require it
+| into the script here so we don't need to manually load our classes.
+|
+*/
 require __DIR__.'/../vendor/autoload.php';
 
-use Symfony\Component\Dotenv\Dotenv;
-use eftec\bladeone\BladeOne;
-
-$views = __DIR__ . '/views';
-$cache = __DIR__ . '/cache';
-$blade = new BladeOne($views,$cache,BladeOne::MODE_DEBUG); // MODE_DEBUG allows to pinpoint troubles.
-echo $blade->run("layouts/app",array("title"=>"value1")); // it calls /views/layouts/app.blade.php
-
-
-?>
+/*
+|--------------------------------------------------------------------------
+| Run The Application
+|--------------------------------------------------------------------------
+|
+| Once we have the application, we can handle the incoming request using
+| the application's HTTP kernel. Then, we will send the response back
+| to this client's browser, allowing them to enjoy our application.
+|
+*/
+require __DIR__.'/../bootstrap/app.php';
