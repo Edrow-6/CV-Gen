@@ -51,14 +51,14 @@ Cette Application a été créer à l'aide des ressources ci-dessus et des conna
 
 ### Commandes Utiles
 
-Générer un tailwind.css par défaut :
+Générer un tailwind.css par défaut :<br>
     > npx tailwindcss-cli@latest build -o public/assets/css/tailwind.css
 
-Générer fichier de customisation de tailwind.css :
+Générer fichier de customisation de tailwind.css :<br>
     > npx tailwindcss-cli@latest init
 
-Compiler le styles.css qui contient les modules de tailwind.css + styles perso :
+Compiler le styles.css qui contient les modules de tailwind.css + styles perso :<br>
     > npx tailwindcss-cli@latest build public/assets/css/styles.css -o public/assets/css/tailwind.css
 
-De même pour la production :
+De même pour la production :<br>
     > NODE_ENV=production npx tailwindcss-cli@latest build public/assets/css/styles.css -o public/assets/css/tailwind.css
