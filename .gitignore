@@ -12,6 +12,7 @@ composer.phar
 
 ### dotenv ###
 .env
+cache/app.bladec
 
 ### Node ###
 # Logs

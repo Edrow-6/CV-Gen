@@ -10,6 +10,8 @@ $dotenv->load();
 // CONFIGURATION DE L'APPLICATION / RELAI VARIABLES .ENV
 $app = include __DIR__.'/../config/app.php';
 
+require __DIR__.'/../app/core/route.php';
+
 // RENDU DU FRONTEND VIA BLADE.
 $views = __DIR__.'/../views/layouts';
 $cache = __DIR__.'/../cache';

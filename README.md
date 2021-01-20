@@ -27,7 +27,7 @@ TODO
 
 ## Auteurs
 
-TODO
+Edrow-6 / Xander / Skyrex
 
 ### Ressources
 
@@ -35,15 +35,30 @@ TODO
 [Visual Studio Code](https://code.visualstudio.com/)
 
 [Docs TailwindCSS](https://tailwindcss.com/docs)<br>
-[Docs PHP](https://www.php.net/docs.php)
+[Alpine.js](https://github.com/alpinejs/alpine/)<br>
 
+[Docs PHP](https://www.php.net/docs.php)
 [Adaptation Blade (BladeOne)](https://github.com/EFTEC/BladeOne)<br>
 [Extention BladeOne](https://github.com/EFTEC/bladeonehtml)<br>
 [Docs Officielle Blade](https://laravel.com/docs/8.x/blade)
 
 [PDO (Standalone)](https://github.com/EFTEC/PdoOne)<br>
-[Docs DotEnv (Symfony)](https://github.com/symfony/dotenv)
+[PHPDotEnv (Standalone)](https://github.com/vlucas/phpdotenv)
 
 ### Crédits
 
 Cette Application a été créer à l'aide des ressources ci-dessus et des connaissances de l'équipe de développement.
+
+### Commandes Utiles
+
+Générer un tailwind.css par défaut :
+    > npx tailwindcss-cli@latest build -o public/assets/css/tailwind.css
+
+Générer fichier de customisation de tailwind.css :
+    > npx tailwindcss-cli@latest init
+
+Compiler le styles.css qui contient les modules de tailwind.css + styles perso :
+    > npx tailwindcss-cli@latest build public/assets/css/styles.css -o public/assets/css/tailwind.css
+
+De même pour la production :
+    > NODE_ENV=production npx tailwindcss-cli@latest build public/assets/css/styles.css -o public/assets/css/tailwind.css
