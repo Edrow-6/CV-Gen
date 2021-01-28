@@ -6,12 +6,18 @@
         "eftec/bladeone": "^3.49",
         "eftec/bladeonehtml": "^1.7",
         "eftec/pdoone": "^2.7",
-        "vlucas/phpdotenv": "^5.3"
+        "vlucas/phpdotenv": "^5.3",
+        "izniburak/router": "^2.2"
     },
     "license": "MIT",
     "authors": [
         {"name": "Xander"},
         {"name": "Edrow"},
         {"name": "Skyrex"}
-    ]
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    }
 }

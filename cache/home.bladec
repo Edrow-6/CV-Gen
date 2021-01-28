@@ -1,0 +1,22 @@
+<?php $_shouldextend[1]=1; ?>
+
+<?php $this->startSection('head-content'); ?>
+ <div class="">
+ <h1 class="">Header title</h1>
+ <h2>Header desc</h2>
+ </div>
+<?php $this->stopSection(); ?>
+
+<?php $this->startSection('main-content'); ?>
+ <section class="">
+ <div class="">
+ <div class="">
+ <div class="">
+ <h1>Bienvenue sur le Générateur de CV !</h1>
+ <p>Ceci est un petit projet de PPE</p>
+ </div>
+ </div>
+ </div>
+ </section>
+<?php $this->stopSection(); ?>
+<?php if (isset($_shouldextend[1])) { echo $this->runChild('layouts.app', ['title' =>'Acceuil', 'body_class' => 'home-page']); } ?>
