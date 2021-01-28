@@ -1,3 +1,8 @@
+:root { font-family: 'Inter', sans-serif; }
+  @supports (font-variation-settings: normal) {
+    :root { font-family: 'Inter var', sans-serif; 
+  }
+}
 /* npx tailwindcss-cli@latest build public/assets/css/styles.css -o public/assets/css/tailwind.css */
 
 /*! modern-normalize v1.0.0 | MIT License | https://github.com/sindresorhus/modern-normalize */

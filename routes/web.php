@@ -10,3 +10,5 @@ $router->get('/', 'HomeController@index');
 
 $router->get('/login', 'AuthController@login');
 $router->get('/register', 'AuthController@register');
+
+$router->get('/easter-egg', 'HomeController@easter');
